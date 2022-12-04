@@ -21,8 +21,21 @@ function listItems () {
 }
 console.log(listItems());
 
-function empty () {
+function empty ( ) {
     while(basket.length > 0) {
         basket.pop();
     }
 }
+
+// Stretch
+
+const maxItems = 5;
+
+function isFull () {
+    if (basket < maxItems) {
+        return false;
+    } else {
+        return true;
+    }
+}
+// Update addItem
