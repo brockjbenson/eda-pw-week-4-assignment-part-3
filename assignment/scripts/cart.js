@@ -26,6 +26,7 @@ function empty ( ) {
         basket.pop();
     }
 }
+console.log(empty());
 
 // Stretch
 
